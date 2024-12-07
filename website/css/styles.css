@@ -1,0 +1,114 @@
+body {
+    background-color: #613540;
+    color: #613540;
+    background: url('../images/bg205.gif') center;
+    font-family: "Perfect DOS VGA 437", "Zpix (最像素)", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Perfect DOS VGA 437";
+    src: url('../fonts/VGA.ttf');
+}
+
+@font-face {
+    font-family: "Zpix (最像素)";
+    src: url('../fonts/zpix.ttf');
+}
+
+header {
+    background-color: #0e0e0e00;
+    padding: 0.5px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #613540;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo-section {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.logo-section img {
+    max-width: 150px;
+}
+
+.mirrors a {
+    color: #00f; /* Change the color to your preference */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.mirrors a:hover {
+    text-decoration: underline;
+    color: #ff0; /* Change the hover color to your preference */
+}
+
+#all-sources {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#all-sources h2 {
+    text-align: center;
+}
+
+#all-sources table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+#all-sources th, #all-sources td {
+    border: 1px solid #0e0e0e;
+    padding: 0.5em;
+    text-align: left;
+}
+
+#all-sources th {
+    background-color: #0e0e0e;
+}
+
+#all-sources tr:nth-child(even) {
+    background-color: #0e0e0e;
+}
+
+.download-button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    background-color: #55555500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #000000a9;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #1a1a1a;
+}
