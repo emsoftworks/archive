@@ -1,0 +1,1 @@
+print("hello from autoexecute/test2.lua!")

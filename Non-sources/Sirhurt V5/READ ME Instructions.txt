@@ -1,0 +1,60 @@
+Welcome to the new SirHurt Web release! This is a quick text tutorial written to 
+help out anyone who's having troubles figuring out how the app works.
+
+Notice:
+SirHurt was created as a Lua Execution Utility built as a universal debugging/sandboxing tool to 
+allow game or script developers to debug or find vulnerabilities inside of there games or scripts. 
+Our software is provided "as is" and we are not responsible for any misuse of our execution services. 
+The buyer agrees to take full responsibility for all misuse or abuse of our software and relinquishes 
+the seller of all responsibility caused by the buyers/clients actions through the use of our software.
+
+
+Included files & short descriptions:
+sirhurt.dll - our main client dll
+sirhurt.exe - our main client injector
+SirHurt v5.exe - our main UI (this is what you'll use to execute scripts and inject)
+bootstrapper.exe - a tool that updates all of the above files with the latest versions on our webhost.
+VMProtectSDK64.dll - A dependency needed for our injector.
+
+Instructions:
+
+1. Extract all the files inside of "SirHurt V5.rar" into one single directory on your computer. We reccomend
+extracting these files into a directory with a random name. We do not reccomend extracting these files to a
+directory called "SirHurt".
+
+2. You can open the bootstrapper if you wish to verify you're running on the latest files.
+
+3. Open "SirHurt V5.exe" -> you will be prompted with a quick notice that you have to agree to continue. Press
+"Yes" to this agreement after you have read it & understand.
+
+4. The UI should now be visible to you and may ask you if you wish to download the latest release of SirHurt.
+You may notice that the executeable gives itself a random name after you open it; this is intentional for
+security to make it a bit harder to track the process by a consistant name.
+
+5. To begin using the executor make sure you join a ROBLOX game on the web client and press the button
+that says "Attach" on our interface to attach SirHurt to ROBLOX. You should see a black console pop up
+after hitting Attach which should say the words "SirHurt V5 has been injected. Closing in 5 seconds.."
+before it closes by itself after 5 seconds of being visible. Give SirHurt about 7-8 seconds before attempting
+to execute a script. When you are attaching SirHurt for the first time you should see a login window open up
+on the ROBLOX client asking you to input your SirHurt Username & password. Please fill out these boxes and
+login using a sirhurt account with a valid lifetime or subscription lisence otherwise 
+you will not be able to execute scripts. After logging in SirHurt should be ready for script execution about 7-10 seconds later.
+
+6. To execute a script you can either type or paste a script into the big white box that allows you to type in.
+You can also optionally press the little yellow folder icon which will prompt you to open a LUA or text file
+containing a script you wish to open in the interface. After you enter the script you want to load press the
+button that says "EXECUTE SCRIPT" on the interface and it should execute into the game.
+
+Note:
+If SirHurt is not executing a script after you press execute script please wait a total of about 30 seconds to
+a minute after you press attach to verify it has enough time to initlize and load everything needed to run scripts
+in the game. If a minute passes and SirHurt still fails to execute anything, including a simple script such as
+print("hello") (which can be seen after you press F9 in game) then injection may of failed. You can see if there's
+any information inside of our debug log which may assist either you or staff assisting you with what your problem
+may be. To open the debug log SirHurt makes press the button called "Open Debug Log" which should then open a text
+file that has contents written in it. The very last line on this file will be the last thing SirHurt got to before
+it either crashed or failed at something. If pressing "Open Debug Log" fails to open a text file you can also
+press 'Open Debug Folder' on the interface which should open a directory after you click it. The file you want in this
+folder is called 'sirh_debug_log.dat' (this is our debug log). If you open a ticket on our website or contact one
+of our support reps through our discord server please be sure to provide this file in your ticket or DM's so we can
+better understand where the problem is occuring and how we may approach fixing it for you.
